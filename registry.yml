@@ -1,0 +1,10 @@
+name: MLOpsRegLiz
+location: westus2
+tags:
+  description: Basic registry with one primary region and to additional regions
+  foo: bar
+replication_locations:
+  - location: westus2
+  - location: westus3
+  - location: westus
+  - location: eastus2

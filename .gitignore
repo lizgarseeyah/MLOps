@@ -1,0 +1,32 @@
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+
+# Virtual environment folder
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files
+*.pkl
+*.h5
+*.joblib
+
+# Azure ML model directories
+outputs/
+
+# GitHub Action logs
+.github/workflows/*.log
+
+# VS Code files
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
